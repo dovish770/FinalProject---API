@@ -12,7 +12,8 @@ namespace PojectFinal___API.Modles
 
         public string Occupation { get; set; }
 
-        public Dictionary<Pin, int>? Pin { get; set; }
+        //string should be (x||y)
+        public Dictionary<string, int>? Pin { get; set; }
 
         public StatusTarget? statusTarget { get; set; }
 
