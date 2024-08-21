@@ -39,6 +39,7 @@ namespace PojectFinal___API.Services
             {
                 return mission;
             }
+
             var distance = Distance(mission.Agent.Pin, mission.Target.Pin);
             var time = (distance/5);
             mission.Duration += time;

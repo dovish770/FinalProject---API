@@ -6,7 +6,7 @@ namespace PojectFinal___API.Modles
     public class Target
     {
         [Key]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         public string Name { get; set; }
 
@@ -15,7 +15,7 @@ namespace PojectFinal___API.Modles
         //string should be (x||y)
         public Dictionary<string, int>? Pin { get; set; }
 
-        public StatusTarget? statusTarget { get; set; }
+        public StatusTarget.statusTarget? Status { get; set; }
 
         public Target() { } 
     }

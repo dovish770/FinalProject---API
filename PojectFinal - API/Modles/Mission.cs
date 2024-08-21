@@ -6,7 +6,7 @@ namespace PojectFinal___API.Modles
     public class Mission
     {
         [Key]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         public Agent Agent { get; set; }
 
